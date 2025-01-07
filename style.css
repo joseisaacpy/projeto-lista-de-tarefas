@@ -1,0 +1,17 @@
+/* fontes */
+
+/* variaveis */
+:root {
+  --font1: "Poppins", sans-serif;
+}
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font1);
+}
+/* body */
+body {
+  background-color: lightgray;
+}
