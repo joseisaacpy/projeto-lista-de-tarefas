@@ -3,17 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lista de Tarefas</title>
-    <!-- css -->
+    <title>Vídeo YT</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- favicon -->
-    <link rel="shortcut icon" href="img/fav-list.png" type="image/x-icon" />
   </head>
   <body>
-    <!-- main -->
     <main>
-      <!-- form -->
-      <form action="">
+      <!-- container -->
+      <div id="box">
+        <!-- h1 -->
         <h1>Lista de Tarefas</h1>
         <!-- input -->
         <input
@@ -22,13 +19,13 @@
           id="inputTarefa"
           placeholder="Digite sua tarefa"
         />
-        <!-- botao -->
-        <button id="btnAdd" onclick="addTarefa()">Adicionar</button>
-        <!-- lista -->
-        <ul id="listaTarefas"></ul>
-      </form>
+        <!-- button -->
+        <button id="btnAdd">Adicionar</button>
+        <!-- div que ficará as tarefas -->
+        <div id="tarefas"></div>
+      </div>
     </main>
-    <!-- footer -->
-    <footer></footer>
+    <!-- script -->
+    <script src="./script.js"></script>
   </body>
 </html>
